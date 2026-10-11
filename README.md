@@ -69,12 +69,6 @@ The script:
 * Calculates return rates
 * Calculates monthly revenue
 
-Task 5 of Part 2 writes the verified findings to:
-
-```text
-narrator/findings.json
-```
-
 ### Visualizations
 
 Run:
@@ -91,6 +85,7 @@ The generated charts are saved in the `visualizations` folder:
 ---
 
 ## 3. GenAI-Powered Insight Narrator
+
 
 The narrator reads the verified findings from:
 
@@ -147,23 +142,6 @@ narrator/sample_output.txt
 ```
 
 The program also runs a numeric accuracy checklist to verify the required figures.
-
----
-
-## Key Verified Findings
-
-| Metric                              |        Result |
-| ----------------------------------- | ------------: |
-| Raw revenue                         | INR 99,860.20 |
-| Cleaned revenue                     | INR 97,358.30 |
-| Duplicate reconciliation difference |  INR 2,501.90 |
-| COD return rate                     |         44.4% |
-| CARD return rate                    |         14.7% |
-| UPI return rate                     |         18.9% |
-| Highest-risk segment                |  COD + Tier-2 |
-| Highest-risk return rate            |         54.5% |
-| True peak month                     |    March 2026 |
-| True peak revenue                   | INR 20,318.90 |
 
 ---
 
