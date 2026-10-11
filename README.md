@@ -197,23 +197,6 @@ visualizations/
 
 README.md
 ```
-
----
-
-## Reproducibility
-
-From the project root:
-
-```cmd
-python analysis\clean_and_eda.py
-python analysis\visualize.py
-python narrator\generate_narrative.py
-```
-
-The SQL database should be prepared before running the Python analysis when rebuilding the project database.
-
----
-
 ## Tools and Technologies
 
 * SQLite
@@ -225,4 +208,3 @@ The SQL database should be prepared before running the Python analysis when rebu
 * Google Gemini API
 * Google GenAI Python SDK
 * JSON
-* GitHub
