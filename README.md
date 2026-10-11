@@ -12,7 +12,7 @@ The project is organized into three main stages:
 
 ---
 
-## 1. SQL Data Pipeline
+## Part 1. SQL Data Pipeline
 
 The SQL layer uses SQLite to create and analyze the project database.
 
@@ -49,7 +49,7 @@ The SQL analysis covers customer activity, revenue, product categories, acquisit
 
 ---
 
-## 2. Python Data Cleaning, EDA and Visualizations
+## Part 2. Python Data Cleaning, EDA and Visualizations
 
 Run the data-cleaning and exploratory-analysis script:
 
@@ -84,7 +84,7 @@ The generated charts are saved in the `visualizations` folder:
 
 ---
 
-## 3. GenAI-Powered Insight Narrator
+## Part 3. GenAI-Powered Insight Narrator
 
 
 The narrator reads the verified findings from:
